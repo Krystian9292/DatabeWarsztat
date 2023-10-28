@@ -1,5 +1,4 @@
-def hash_password(password, salt):
-    pass
+from clcrypto import hash_password
 
 
 class User:

@@ -4,7 +4,7 @@ from psycopg2 import connect, OperationalError
 from psycopg2.errors import UniqueViolation
 
 from models import User
-from cryptography import check_password
+from clcrypto import check_password
 
 parser = argparse.ArgumentParser()
 parser.add_argument("-u", "--username", help="username")
